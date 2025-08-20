@@ -1,0 +1,86 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Contact Form</h1>
+
+        <div class="main">
+            <div class="contact-info">
+
+                <h2>Contact Info</h2>
+
+                <p id="para">“Our global offices are here to provide you with the best service possible. Contact us at the location most convenient for you.”</p>
+
+                <div class="address">
+
+                    <div class="add-1">
+                        <h3>London</h3>
+                        <div class="one">
+                            <span><i class="fa-solid fa-map"></i></span>         <p>  221B Baker Street, London, UK</p>
+                        </div>
+
+                        <div class="two">
+                            <span><i class="fa-solid fa-phone"></i></span>       <p> +44 20 7946 0958</p>
+                        </div>
+                        
+                        <div class="three">
+                            <span> <i class="fa-solid fa-envelope"></i> </span>  <p> london.office@example.com</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="add-2">
+                        <h3>New York Office</h3>
+
+                        <div class="one">
+                            <span><i class="fa-solid fa-map"></i></span>          <p> 123 Fifth Avenue, New York, NY 10001, USA</p>
+                        </div>
+
+                        <div class="two">
+                            <span><i class="fa-solid fa-phone"></i></span>        <p> +1 (212) 555-7890</p>
+                        </div>
+
+                        <div class="three">
+                            <span> <i class="fa-solid fa-envelope"></i> </span>   <p> ny.office@example.com</p>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+
+
+            </div>
+
+            <form id="contactForm">
+                <div class="fields">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                    <small class="error" id="nameError"></small>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                    <small class="error" id="emailError"></small>
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+                    <small class="error" id="messageError"></small>
+                </div>
+
+                <div class="btn">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+
+         </div>
+
+
+<script src="app.js"></script>
+    </body>
+    </html>
